@@ -4,7 +4,7 @@ const Header = () => (
   <header>
     <h1>
       <Logo style={{ height: "1.5em", flexShrink: 0 }} />
-      SVG to PNG
+      SVG to PNG (DarkMode Version)
     </h1>
   </header>
 );
