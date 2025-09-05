@@ -157,7 +157,7 @@ export const getDefaultOptions = (props?: Props) => {
 };
 
 const sampleFile = {
-  source: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">\n  <circle fill="#e91e63" cx="0" cy="0" r="100" />\n</svg>`,
+  source: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">\n  <circle fill="#000000ff" cx="0" cy="0" r="100" />\n</svg>`,
   filename: "sample.svg",
 };
 

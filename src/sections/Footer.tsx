@@ -5,7 +5,11 @@ const Footer = () => (
   <footer>
     <a href="https://github.com/vincerubinetti/svg-to-png" target="_blank">
       <FontAwesomeIcon icon={faGithub} />
-      <span>Source code and help</span>
+      <span>Original Source Code</span>
+    </a> 
+    <a href="https://github.com/bobjoerules/svg-to-png-darkmode" target="_blank">
+      <FontAwesomeIcon icon={faGithub} />
+      <span>This Version Source Code</span>
     </a>
   </footer>
 );

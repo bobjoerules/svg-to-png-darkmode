@@ -1,12 +1,13 @@
 :root {
-  --primary: #e91e63;
-  --primary-light: #ee769e;
+  --primary: #3c3c3c;
+  --primary-light: #eceff1;
 
+  --darkgray: #222222;
   --white: white;
   --off-white: #eceff1;
   --light-gray: #cfd8dc;
   --gray: #90a4ae;
-  --off-black: #263238;
+  --off-black: #3c3c3c;
   --black: black;
 
   --shadow: 0 0 10px #0002;
@@ -23,8 +24,8 @@
 
 body {
   margin: 0;
-  background: var(--white);
-  color: var(--off-black);
+  background: var(--darkgray);
+  color: var(--white);
 }
 
 #root {
@@ -48,7 +49,7 @@ footer {
   padding: 40px;
   gap: 10px 40px;
   background: var(--primary);
-  color: var(--white);
+  color: var(--off-black);
   text-align: center;
 }
 
@@ -72,6 +73,7 @@ section {
 }
 
 h1 {
+  color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -119,10 +121,12 @@ li {
 }
 
 button,
-select,
-input,
-textarea {
+select{
   color: inherit;
+  font: inherit;
+}
+input, textarea {
+  color: black;
   font: inherit;
 }
 
@@ -183,7 +187,7 @@ svg + span {
 
 .tippy-arrow {
   z-index: 99;
-  color: var(--off-black);
+  color: var(--off-white);
 }
 
 .tippy-content > * {

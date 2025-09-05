@@ -7,7 +7,7 @@
   gap: 0.5em;
   border: none;
   border-radius: var(--rounded);
-  background: var(--off-white);
+  background: var(--off-black);
   transition:
     background var(--fast),
     color var(--fast),
